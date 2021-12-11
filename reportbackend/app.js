@@ -30,6 +30,7 @@ app.use(session({
     name:'myname.sid',
     resave:false,
     saveUninitialized:false,
+    secret:'secrete',
     cookie:{
         maxAge:3600000,
         httpOnly:false,
